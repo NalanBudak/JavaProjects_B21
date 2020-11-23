@@ -3,6 +3,7 @@ package library;
 import java.util.Arrays;
 
 public class ArraysUtility {
+
     /*
     returns the maximum number from an array of integer
      */
@@ -34,6 +35,37 @@ public class ArraysUtility {
 
 
     /*
+    returns the minimum number from an array of double
+     */
+    public static double min(double[] arr){
+        double min = arr[0];
+
+        for(double each : arr) {
+            if (each < min) {
+                min = each;
+            }
+        }
+
+        return min;
+    }
+
+
+    /*
+    returns the maximum number from an array of double
+     */
+    public static double max(double[] arr){
+        double max =arr[0];
+        for( double each  : arr ){
+            if(each > max){
+                max = each;
+            }
+        }
+        return max;
+    }
+
+
+
+    /*
     Combines two arrays of integers and return the new array
      */
     public static int[] combineTwoArrays(int[] arr1, int[] arr2){
@@ -48,7 +80,7 @@ public class ArraysUtility {
             arr3[i++]  = each;
         }
 
-       return arr3;
+        return arr3;
     }
 
 
@@ -60,7 +92,7 @@ public class ArraysUtility {
         int[] reversedArray = new int[arr.length];  // {3, 2, 1}
 
         for(int i=arr.length-1, j = 0 ;  i>=0; i--, j++){
-          reversedArray[j] = arr[i];
+            reversedArray[j] = arr[i];
         }
 
         return reversedArray;
@@ -68,15 +100,18 @@ public class ArraysUtility {
 
 
 
+
+
     /*
     replaces the [] with {}  while printing the array
      */
-    public static String printArray(int[] arr){
+    public static String printArray(int[] arr) {
         String str = Arrays.toString(arr);
         str = str.replace("[", "{").replace("]", "}");
         return str;
-    }
 
+    }
+    }
 
 
     /*
@@ -86,4 +121,3 @@ public class ArraysUtility {
 
 
 
-}

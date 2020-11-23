@@ -62,7 +62,7 @@ public class StringUtility {
             }
         }
 
-       return result;
+        return result;
     }
 
 
@@ -88,13 +88,11 @@ public class StringUtility {
     anagram:
         "adbbdbd"  ==> abc
         "dbaaaaaaaa" ==> abc
-
       output
         true
-
         verify if two strings are anagram, returns the boolean result
      */
-                                    //ccaab       // bbbaccc
+    //ccaab       // bbbaccc
     public static boolean isAnagram(String str1, String str2){
         str1 = removeDuplicates(str1);  //cab
         str2 = removeDuplicates(str2);  //bac
@@ -105,7 +103,7 @@ public class StringUtility {
         Arrays.sort(ch1); // [a, b, c]
         Arrays.sort(ch2); // [a, b, c]
 
-       return   Arrays.equals(ch1, ch2);
+        return   Arrays.equals(ch1, ch2);
     }
 
 
@@ -116,6 +114,27 @@ public class StringUtility {
     public static boolean isPalindrome(String str){
         return  reverse(str).equalsIgnoreCase(str);
     }
+
+
+
+    /*
+    takes a sentence and word, then returns the frequency of the word
+     */
+    public static int frequencyOfWord(String sentence, String word){
+        sentence = sentence.toLowerCase();
+        word = word.toLowerCase();
+
+        int frequency = 0;
+
+        while(sentence.contains(word)){
+            sentence = sentence.replaceFirst(word, "");
+            frequency++;
+        }
+
+        return frequency;
+    }
+
+
 
 
 }

@@ -25,12 +25,14 @@ public class StringMethods {
         name = name.toUpperCase(); // "BANK OF AMERICA"
 
         System.out.println("name = " + name);
-
+      //================================================================
         name = name.toLowerCase(); // "bank of america"
 
         System.out.println("name = " + name);
 
         System.out.println("====================================");
+
+   // trim
 
         String t1 = "          Hello                ";
                t1 = t1.trim(); // "Hello"

@@ -1,7 +1,9 @@
 package day17_Strings;
 
 public class String_CharAt {
+
     public static void main(String[] args) {
+
 
         String str = "Cybertek";
 
@@ -15,7 +17,7 @@ public class String_CharAt {
 
         System.out.println(last);
 
-      //  System.out.println(str.charAt(100)); This is out of bounds
+        //  System.out.println(str.charAt(100)); This is out of bounds
 
     }
 }
