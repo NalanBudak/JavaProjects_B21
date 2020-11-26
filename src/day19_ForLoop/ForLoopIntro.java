@@ -1,14 +1,19 @@
 package day19_ForLoop;
 
-/*
-for( initialization; Condition ; Iterator){
-					statements;
-		}
- */
 public class ForLoopIntro {
 
     public static void main(String[] args) {
 
+
+        /* Loop===>  repeated statements
+
+
+        for loop====> gets executed every time when condition is true, and stops when condition becomes false
+
+            for( initialization; Condition ; Iterator){
+				        	statements;
+		                    }
+         */
 
         for(int i =1;  i <= 10;  i++ ){
             System.out.println("hello");

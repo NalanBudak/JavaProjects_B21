@@ -16,6 +16,7 @@ public class CheckWords {
         System.out.println("Enter third word");
         String s3 = scan.next();
 
+
         int l1 = s1.length();
         int l2 = s2.length();
         int l3 = s3.length();

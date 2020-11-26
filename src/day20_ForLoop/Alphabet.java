@@ -4,7 +4,7 @@ public class Alphabet {
 
     public static void main(String[] args) {
 
-        for(int i= 65; i <= 90; i++){
+        for(int i= 65; i <= 90; i++){  // 65 in karsiligi A asci table da. 65=A . A birer birer artiliyor bu yuzden  A dan Z ye kadar print edecek
             System.out.print( (char)i +" ");
         }
         System.out.println();
@@ -17,10 +17,12 @@ public class Alphabet {
 
         System.out.println("====================================================");
        // a ~ z: 97 ~ 122
-        for(int i = 97; i <= 122; i++){
+        for(int i = 97; i <= 122; i++){  // kucuk a =97 asci table da. 97 den baslayip artacak birer birer. a dan z ye print edecek
             System.out.print( (char)i +" ");
         }
         System.out.println();
+
+        System.out.println("=============================");
 
 
         for(char i = 'a'; i <= 'z'; i++){

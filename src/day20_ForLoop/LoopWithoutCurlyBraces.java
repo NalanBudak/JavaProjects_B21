@@ -16,7 +16,9 @@ public class LoopWithoutCurlyBraces {
             System.out.println("Hello");
             System.out.println("How are you");
 
+// lopps without curl braces : can only repeat one statement
 
+// eger bir tane print statement varsa curly brcases kullanilabilir. bir den fazla ise kullanilmasi uygyn degildir
 
 
 

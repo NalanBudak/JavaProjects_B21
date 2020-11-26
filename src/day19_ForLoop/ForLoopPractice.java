@@ -21,13 +21,15 @@ public class ForLoopPractice {
 
         System.out.println("====================================================");
 
-        // 1 3 5 7 9 11 ...
+
+        // 1 3 5 7 9 11 ....... odd numbers
 
         for(int i =1; i <= 100; i += 2){
             System.out.print(i+" ");
         }
 
         System.out.println();
+
 
         System.out.println("======================================================");
         for(int i =0; i <= 100; i++){
@@ -40,7 +42,7 @@ public class ForLoopPractice {
 
         System.out.println("==================================================");
 
-        // 0 2 4 6 8 10 12 14 .... 100
+        // 0 2 4 6 8 10 12 14 .... 100   even numbers
         for(int i = 0; i <= 100; i += 2){
             System.out.print(i+" ");
         }
@@ -59,7 +61,7 @@ public class ForLoopPractice {
 
         System.out.println("==================================================");
 
-        for(int i = 1; i <= 500; i++){
+        for(int i = 1; i <= 200; i++){
             System.out.println("Push Up "+i);
         }
 
