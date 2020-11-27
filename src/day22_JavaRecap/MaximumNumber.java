@@ -32,7 +32,7 @@ public class MaximumNumber {
 
         scan.close();
 
-        System.out.println("max = " + max);
+      System.out.println("max = " + max); //eger 1 kere print etmesini istiyorsak loop un disina tutuyoruz. eger 1 den fazla istiyorsak loop un icine konabilir
         
         
         

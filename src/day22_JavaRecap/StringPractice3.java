@@ -1,6 +1,7 @@
 package day22_JavaRecap;
 
 public class StringPractice3 {
+
     public static void main(String[] args) {
 
         String sentence = "Capital of Canada is Washington";
@@ -19,6 +20,9 @@ public class StringPractice3 {
             r = r.replace("cav", "jav");
 
         System.out.println(r);
+
+        System.out.println("==========================");
+
 
         String p = "I like Java and Java Java Java Java Java Java";
         p = p.replaceFirst("Java", "C#");

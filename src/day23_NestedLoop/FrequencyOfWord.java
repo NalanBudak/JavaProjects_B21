@@ -3,7 +3,8 @@ package day23_NestedLoop;
 public class FrequencyOfWord {
 
     public static void main(String[] args) {
-        String sentence = "Java is a programming language, I like to learn Java Java Java Java";
+
+        String sentence = "Java is a programming language, I like to learn Java  Java Java Java";
                         // " is a programming language, I like to learn Java"
                         // " is a programming language, I like to learn"
         String word = "Java";
@@ -12,10 +13,10 @@ public class FrequencyOfWord {
 
         while( sentence.contains(word) ){
             sentence = sentence.replaceFirst(word, "" ); // we need to remove one at a time to count the frequency
-            count++;
+           count++;
         }
 
-        System.out.println(count);
+        System.out.println(count);// print will be 5 because , sentence has 5 java (yukaridakai ilk code)
         System.out.println(sentence);
 
 

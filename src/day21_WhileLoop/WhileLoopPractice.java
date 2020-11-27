@@ -12,10 +12,11 @@ public class WhileLoopPractice {
 
         int j =1;
         while(j <= 10){
+
             // j++; // 2-11
             System.out.println(j);
 
-            j++; // 1-10
+           j++; // 1-10  // iterator should be after the print statement
         }
 
 

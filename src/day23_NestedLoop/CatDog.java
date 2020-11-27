@@ -7,15 +7,17 @@ public class CatDog {
         String sentence =  "dog dog Dog Dog cat CAT cAt";
 
         String temp = sentence.toLowerCase();  // after this we do not need to worry case sensitivity
-
+                                              // butun dog'lari kucuk harf yaptik
         int countDog = 0;
         String word = "dog";
         while(temp.contains(word )){
-            temp = temp.replaceFirst(word , "");
+            temp = temp.replaceFirst(word , ""); // doglarin yerine bos "" verdik. yani dog lari kaldirdik
             countDog++;
         }
 
         System.out.println("Number of dogs: "+countDog);
+
+        System.out.println("========================================");
 
         int countCat = 0;
         word = "cat";

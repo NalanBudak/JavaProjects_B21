@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class FirstUpperLastLower {
 
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
         String str = scan.nextLine();
-        scan.close();
+       scan.close();
 
         char f = str.charAt(0);
         char l = str.charAt( str.length()-1 );

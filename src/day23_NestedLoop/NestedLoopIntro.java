@@ -36,9 +36,11 @@ public class NestedLoopIntro {
 
      */
 
-        for(int j = 1; j <= 5; j++){
+        //  NESTED LOOP===> LOOP ICINDE ANOTHER LOOP
 
-            for(int i = 1; i <= 10; i++){
+        for(int j = 1; j <= 5; j++){ //outer loop // line sayisini verir
+
+            for(int i = 1; i <= 10; i++){  // inner loop . bir siradaki elementin sayisini verir
                 System.out.print(i+" ");
             }
 
@@ -47,6 +49,7 @@ public class NestedLoopIntro {
 
 
         System.out.println("=============================================");
+
         for(int j = 1; j <= 10; j++) {
 
             for (int i = 1; i <= 20; i++) {

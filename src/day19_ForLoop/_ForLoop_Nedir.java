@@ -40,7 +40,7 @@ public class _ForLoop_Nedir {
 
 while loop===> repeated if statement
 
-do while ===>gets executed at least once even if the condition is false
+  do while ===>gets executed at least once even if the condition is false
 
 Nested Loop==> loop inside another loop
 

@@ -32,15 +32,7 @@ public class MiddleCharacter {
 
     }
 
-
-
-
-
-
-
     }
-
-
 
 }
 /*

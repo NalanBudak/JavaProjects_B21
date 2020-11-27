@@ -37,6 +37,7 @@ public class Credentials {
                 System.out.println("Invalid username or password, please re enter");
                 System.out.println("Enter your username");
                 username = scan.next();
+
                 System.out.println("Enter your password");
                 password = scan.next();
 

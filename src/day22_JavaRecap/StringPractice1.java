@@ -29,6 +29,8 @@ public class StringPractice1 {
         String day2 = str1.substring(0,  str1.indexOf(" ") );
         System.out.println(day2);
 
+        System.out.println("===================================");
+
         String s1 = "https://www.google.com";  // .com , .edu ,  .gov,
 
         String domain = s1.substring( s1.lastIndexOf(".")+1 );
