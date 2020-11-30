@@ -4,6 +4,8 @@ public class FirstThreeCharacters {
 
     public static void main(String[] args) {
 
+
+
         String[] names={ "Erjon", "Katrin", "Aamir", "Lola", "Oguzhan", "Aibek", "Elvin", "Ilgar", "Nadira", "Beraat", "Parizat"};
 
         for( String eachName : names ){

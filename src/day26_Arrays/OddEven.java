@@ -5,13 +5,14 @@ import java.util.Arrays;
 public class OddEven {
 
     public static void main(String[] args) {
+
         int[] numbers = new int[100];
                         // last index: 99
 
         //1~100
 
         for(int i = 0; i <= 99; i++){ // i: 0 ~ 99
-            numbers[i] = i+1;
+            numbers[i] = i+1; // i Sifir di. i+1 deyince 0+1=1 oldu 1+1=2 seklinde gider
             /*
             numbers[0] = 0;  0+1 =1
             numbers[1] = 1;  i+1 = 2

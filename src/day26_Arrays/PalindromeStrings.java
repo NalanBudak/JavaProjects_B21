@@ -3,6 +3,7 @@ package day26_Arrays;
 public class PalindromeStrings {
 
     public static void main(String[] args) {
+
         String[] names = {"Anna", "Nalan", "Hannah", "Emma", "Aidai", "Ciris", "Yasin", "Bob", "Inna", "Eve"};
 
         int countPalindromes = 0;

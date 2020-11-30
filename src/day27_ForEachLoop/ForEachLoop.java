@@ -4,26 +4,32 @@ public class ForEachLoop {
 
     public static void main(String[] args) {
 
+
+        // For Loop solution
+
         String[] names = {"Delaram", "Aysel", "Snoop", "Ayse", "Erjon"};
 
         for(int i = 0; i <= names.length-1; i++ ){  // i is the index num of array
             System.out.println( names[i] );
         }
-
         System.out.println("=====================================");
 
-        for(String   each  : names ){  // each is the element
+
+        // For Each Loop Solution
+
+        for(String   each  : names ){  // each  represent all the  elements in the array. Data
             System.out.println(each);
         }
 
-
         System.out.println("=========================================");
-        int[] numbers = {1,2,3,4,5,6,7,8,9,10,11,12};
+
+
+        int[] numbers = {1,2,3,4,5,6,7,8,9,10,11,12}; // data dype match with data
 
         int countEvens = 0;
         int countOdds =0;
 
-        for(int  each  : numbers){ // each is the elements of the array
+        for(int  each  : numbers){ // each is the elements of the array.  numbers  represent  collection of data
             if(each % 2 == 0){
                 countEvens++;
             }else{
@@ -34,12 +40,17 @@ public class ForEachLoop {
         System.out.println("count Odds = " + countOdds);
         System.out.println("count Evens = " + countEvens);
 
+        // consolda even da, odd da 6 olacak .
+
         System.out.println("=======================================================");
+
+     // maximum and minimum number  i bulmak icin kullanilan yontem
+
         int[] scores = {10, 2, 3, 25, 5, 100, -5, -2, 1000, 30, 40, 56};
         int max = scores[0] ;
         int min = scores[0];
         
-        for(int each  : scores){
+        for(int each  : scores){ // each represent elements  . score represent collection of data
             if(each > max){
                 max = each;
             }

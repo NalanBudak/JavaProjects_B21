@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class MinMaxInArray {
 
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
+
         System.out.println("How many number would you like to enter?");
         int length = scan.nextInt();
 

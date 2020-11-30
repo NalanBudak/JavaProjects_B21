@@ -10,10 +10,11 @@ public class MinNumberInArray {
         for(int i=0; i <= numbers.length-1; i++ ){
             if(numbers[i] < min){
                 min = numbers[i];
+
             }
         }
 
-        System.out.println("min = " + min);
+      System.out.println("min = " + min);
 
 
     }

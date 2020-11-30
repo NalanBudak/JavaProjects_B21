@@ -22,13 +22,13 @@ public class ArrayPractice {
                             {"Agalar"}                            //4
                     };
 
-        System.out.println( Arrays.deepToString(scrumTeam) );
+        System.out.println( Arrays.deepToString(scrumTeam) ); // butun array leri print eder
 
         for(int i=0; i <= scrumTeam.length-1; i++){ //i: index of 1D arrays
 
             System.out.println(  Arrays.toString(scrumTeam[i])  );  // prints the each group in scrum team
 
-            for(int j= 0; j <= scrumTeam[i].length-1;  j++ ){ // j: index of elements
+         for(int j= 0; j <= scrumTeam[i].length-1;  j++ ){ // j: index of elements
                 System.out.println( scrumTeam[i][j] );
             }
 

@@ -5,11 +5,12 @@ import java.util.Scanner;
 public class MyFriends {
 
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
         System.out.println("How many friends?");
         int number = scan.nextInt();
 
-        String[] firstName = new String[number]; // 3
+        String[] firstName = new String[number]; // 3  // buradaki number represent length of Array.
         String[] lastName = new String[number];
 
         // for storing the names
@@ -29,6 +30,7 @@ public class MyFriends {
         scan.close();
 
         System.out.println("=====================================================");
+
 
         for(int i = 0; i < number; i++){  // used for printing out the elements in the arrays
             System.out.println(firstName[i]+" "+lastName[i]);

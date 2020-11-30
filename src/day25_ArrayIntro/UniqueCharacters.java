@@ -3,6 +3,8 @@ package day25_ArrayIntro;
 public class UniqueCharacters {
 
     public static void main(String[] args) {
+
+
         String str = "abcababe";
 
         String result = "";  //"ce"

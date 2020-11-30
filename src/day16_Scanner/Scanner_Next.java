@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Scanner_Next {
 
+    // next() sadece bir kelime print edilecekse kullanilir
+    // nextLine() birden fazla kelime print olacaksa kullanilir
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

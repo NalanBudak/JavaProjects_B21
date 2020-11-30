@@ -4,25 +4,25 @@ public class Practice {
 
     public static void main(String[] args) {
 
-        for(int i = 1; i < 6; i++){
 
-            System.out.println("Hello");
+        for(int i = 1; i < 6; i++){
+            System.out.println("Hello");  // step1: print hello 5 times  (for loop)
 
         }
 
-        System.out.println("Muhtar");
+        System.out.println("Muhtar");       //step2: print your name
 
         for (int i = 1; i < 6; i++){
 
-            System.out.println("Hello");
+            System.out.println("Hello");   //step3: print hello 5 times  (for loop)
 
         }
 
-        System.out.println("Cybertek");
+        System.out.println("Cybertek");   //step4: print your school name
 
         for(int i = 1; i < 6; i++){
 
-            System.out.println("Hello");
+            System.out.println("Hello"); // step5: print hello 5 times (for loop)
 
         }
 
@@ -37,5 +37,5 @@ public class Practice {
 		step2: print your name
 		step3: print hello 5 times  (for loop)
 		step4: print your school name
-		step5: print hello 5 times   (for loop)
+		step5: print hello 5 times (for loop)
  */

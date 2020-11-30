@@ -8,6 +8,7 @@ import java.util.Arrays;
 public class MethodCalls {
 
     public static void main(String[] args) {
+
         String str = "Level";
 
        String reversedName = StringUtility.reverse(str);

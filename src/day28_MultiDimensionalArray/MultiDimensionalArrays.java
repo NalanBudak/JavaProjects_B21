@@ -15,11 +15,11 @@ public class MultiDimensionalArrays {
         int[] arr3 = {8,9,10,11,12,13};
         //            0 1  2  3  4  5
 
-        int[][]  arrays =  { arr1, arr2, arr3 };
+        int[][]  arrays =  { arr1, arr2, arr3 };        // burada 2 tane braclets var. bu yuzden print ederken 2 tane den fazla yazdiramayiz
         //                     0     1     2
 
         // retrieve the element: 6
-        System.out.println(  arrays[1][3]  );
+        System.out.println(  arrays[1][3]  );           // 1 index number of array, 3 ise index number of element  (2.aray in 3. uncu element numarasi )
 
         // retrieve the element: 8
         System.out.println( arrays[2][0]   );
@@ -28,22 +28,21 @@ public class MultiDimensionalArrays {
         System.out.println(  Arrays.toString( arrays[1])    );  // 1D array
 
         // print entire arrays:
-        System.out.println( Arrays.toString(arrays)  );
-        System.out.println( Arrays.deepToString(arrays)  );
+        System.out.println( Arrays.toString(arrays)  );         // used for printing  single dimensional arrays
+        System.out.println( Arrays.deepToString(arrays)  );     // used for printing multi dimensional arrays
 
-        System.out.println("============================================");
 
+       System.out.println("============================================");
+//
         String[][] batch21 = {
-                                {"Lily","Lana","Igor"} ,   //0
-
-                                {"Polina", "Serhii", "Abdujilil", "Aziz", "Halzat" } ,  //1
-
-                                {"Justyna", "Adil","Ercan","Irina","Med", "Olesea","Vlad","Asuman","Guvanch"},//2
-
-                             };
+                                  {"Lily","Lana","Igor"},   //0
+                                  {"Polina", "Serhii", "Abdujilil", "Aziz", "Halzat" }, //1
+                                  {"Justyna", "Adil","Ercan","Irina","Med", "Olesea","Vlad","Asuman","Guvanch"}     };   //2
 
 
-        for(int i =0;  i <= batch21.length-1; i++ ){ // i: index numbers of 1D arrays
+
+
+        for(int i =0;  i <= batch21.length-1; i++ ){ // i: index numbers of 1D arrays // buradaki i represent each group . j ise repreent each membres of group
 
             System.out.println(   Arrays.toString(  batch21[i] )    );
 
@@ -55,11 +54,11 @@ public class MultiDimensionalArrays {
 
         System.out.println("=========================================================");
 
-        for(int i = batch21.length-1; i >= 0 ; i-- ){ // i: 2, 1, 0    represents the index num of 1D arrays
+        for(int i = batch21.length-1; i >= 0 ; i-- ){       //  i: 2, 1, 0    represents the index num of 1D arrays
 
-            for(int j = batch21[i].length-1;  j >=0; j-- ){ // j: represents the index of elements
-                System.out.print( batch21[i][j] +"  "  );
-            }
+            for(int j = batch21[i].length-1;  j >=0; j-- ){ //  j: represents the index of elements
+                System.out.print( batch21[i][j] +"  "  );       // bos space bosluk koymak icin
+                         }
 
         }
 

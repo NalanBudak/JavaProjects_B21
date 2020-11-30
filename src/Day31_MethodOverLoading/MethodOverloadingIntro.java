@@ -24,9 +24,6 @@ public class MethodOverloadingIntro {
         String[] arr4 = {"A", "D", "C"};
         Arrays.sort(arr4);
 
-
-
-
     }
 
     public static void method(){

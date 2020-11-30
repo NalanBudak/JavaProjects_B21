@@ -13,7 +13,9 @@ public class StringMethods {
         System.out.println(  Arrays.toString(array)  );
 
         System.out.println("==================================");
+
         // anagram task:
+
         String s1 = "acb";  // a, c, b
         String s2 = "def"; // b, a, c
 
@@ -31,7 +33,8 @@ public class StringMethods {
         System.out.println(isAnagram);
 
 
-    //split(str):
+    //split(str):  returns String Array, splits the string by given value
+
         String sentence = "Today is great day";
         String[] words =  sentence.split(" ");
 

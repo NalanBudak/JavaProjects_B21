@@ -3,6 +3,7 @@ package day27_ForEachLoop;
 public class UniqueIntegers {
 
     public static void main(String[] args) {
+
         int[] arr ={1,1,2,3,3,4,1};
         //          0 1 2 3 4 5 6
 
@@ -21,13 +22,7 @@ public class UniqueIntegers {
                 System.out.print(element+" ");
             }
 
-
         }
-
-
-
-
-
 
 
     }

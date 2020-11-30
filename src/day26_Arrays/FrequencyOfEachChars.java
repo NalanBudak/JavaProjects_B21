@@ -15,6 +15,7 @@ public class FrequencyOfEachChars {
         }
 
         String result = "";  // "a3b2c1"
+
   // Step 2: find the frequency of each nonDiup characters from the original string
         for(int j =0; j <= nonDup.length()-1; j++){ // j is the index num of nonDup
 

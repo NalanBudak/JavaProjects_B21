@@ -28,6 +28,7 @@ public class RoomReserveProgram {
         System.out.println("Do you want to reserve a room?");
         String yesOrNo = scan.next();
 
+
         while (yesOrNo.equalsIgnoreCase("yes")) { // YES NO yeS nO Yes
 
             System.out.println("Which bed type do you want?");

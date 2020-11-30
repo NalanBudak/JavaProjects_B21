@@ -5,15 +5,19 @@ import java.util.Arrays;
 public class ArraysUtility {
 
     public static void main(String[] args) {
-    // toString:
+
+    //  Arrays.toString( array ): converts the array to String
+        //									MUST use in order to print the entire array
+
         int[] numbers = {1,2,3,4,5,6};
 
         System.out.println( numbers[0] );
         System.out.println( numbers[1] );
         System.out.println( numbers[2] );
-        System.out.println( numbers );  //hashcode
+        System.out.println( numbers );    //hashcode
 
         System.out.println(  Arrays.toString(numbers)   );
+
         String str1 = "Cybertek";
         System.out.println( str1 );
 
@@ -21,7 +25,7 @@ public class ArraysUtility {
         System.out.println(  classMates  );  // hashcode
         System.out.println(  Arrays.toString(classMates)  );
 
-    // sort(array)
+    //   Arrays.sort(array): sorts the array in ascending order
 
         int[] arr1 = {200000, 1000000, 4000000, 6000, 300000, 12345551, 90000};
 
@@ -47,7 +51,8 @@ public class ArraysUtility {
         System.out.println( Arrays.toString(names)  );
 
 
-    // equals(arr1, arr2)
+    // equals(arr1, arr2): returns boolean
+
         int[] a1 = {1, 2, 3};
         int[] a2 = {1, 3, 2};
 

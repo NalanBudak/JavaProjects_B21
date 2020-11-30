@@ -15,7 +15,7 @@ public class CombineThreeArrays {
         String[] groups = new String[group1.length + group2.length+ group3.length +group4.length];
         int i = 0;
 
-        for(String each : group1){
+       for(String each : group1){
             groups[i++] = each;
         }
 

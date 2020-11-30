@@ -6,6 +6,7 @@ public class ArraysDescending {
 
     public static void main(String[] args) {
 
+
         int[] arr = {5, 1, 2, 6, 7, 0};
 
         Arrays.sort(arr);  // finish sorting in ascending order

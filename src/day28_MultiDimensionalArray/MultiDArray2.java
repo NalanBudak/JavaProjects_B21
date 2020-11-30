@@ -5,25 +5,34 @@ import java.util.Arrays;
 public class MultiDArray2 {
 
     public static void main(String[] args) {
+
+
         int[][]  arr2D1 = {{1,2,3},{4,5,6,7,8}};
         int[][]  arr2D2 = {{10,20,30},{40,50,60,70,80}};
-
         int[][]  arr2D3 = {{100,200,300},{400,500,600,700,800}};
                     //            0             1
 
         int[][][]  arr3D = { arr2D1, arr2D2, arr2D3  };
                        //     0        1        2
 
-        System.out.println(Arrays.deepToString(arr3D) );
+                System.out.println(Arrays.deepToString(arr3D) );// butun hepsini print edecek
 
-        // print: {{10,20,30},{40,50,60,70,80}}
-        System.out.println( Arrays.deepToString( arr3D[1] )  );
+        System.out.println("====================================");
 
-        // print: {400,500,600,700,800}
-        System.out.println(  Arrays.toString(arr3D[2][1]) );
+                 System.out.println( Arrays.deepToString( arr3D[1] )  );// print: {{10,20,30},{40,50,60,70,80}}
+
+        System.out.println("====================================");
+
+                System.out.println(  Arrays.toString(arr3D[2][1]) );     // print: {400,500,600,700,800}
+
+
+
+        System.out.println("====================================");
 
         // print 30
-        System.out.println( arr3D[1][0][2]);
+
+        System.out.println( arr3D[1][0][2]); // 1===> arr3D de nin icindeki arr2D2. 0===>arrD2 nin ilk array numarasi 2===> arr2D2 nin icindeki 30 un index numarasi.
+                                             // cunku biz 30 u print etmek istiyoruz.
 
 
         int[][][][] arr4D = { arr3D , arr3D };

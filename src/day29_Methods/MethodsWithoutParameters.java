@@ -2,8 +2,10 @@ package day29_Methods;
 
 public class MethodsWithoutParameters {
 
-
     public static void main(String[] args) {
+
+        // Main method===> used for  run the code top the bottom
+        // Custom Method must be independent.  Method must be created within class , not inside the another method
 
         printHello5Times();
         System.out.println("Muhtar");

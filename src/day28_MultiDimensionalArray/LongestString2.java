@@ -3,6 +3,8 @@ package day28_MultiDimensionalArray;
 public class LongestString2 {
 
     public static void main(String[] args) {
+
+
         String[] names = {"Elenora", "Evelyna", "Apple", "Pear", "Vale", "Ruslana", "Jair" };
         int maxLength = names[0].length();
         int minLength = names[0].length();

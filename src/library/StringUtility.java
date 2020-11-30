@@ -5,8 +5,9 @@ import java.util.Arrays;
 public class StringUtility {
 
     /*
-        returns the frequency of given char from teh given string, as int
+        returns the frequency of given char from the given string, as int
      */
+    //                     "aaa"          'a'
     public static int frequency(String str, char ch){
         int count = 0;
 
