@@ -1,17 +1,25 @@
 package Day32_LocalDate_WrapperClass;
 
 public class CharacterWrapperClass {
-    public static void main(String[] args) {
-        char n = 'W';
 
+    public static void main(String[] args) {
+
+        // CharacterWrapper class=======>
+
+
+        char n = 'W';
         System.out.println(   Character.isDigit(n) );
         System.out.println( Character.isLetter(n) );
+
+        System.out.println("====================================");
+
 
         String str = "a1b2c3b4c5d6T@w$y%o^p%!-_ +~`#& ";
 
         String digits = "";
         String letters = "";
         String specialChar = "";
+
 
         for(char each : str.toCharArray() ){
             if(Character.isDigit(each)){

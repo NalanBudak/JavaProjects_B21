@@ -9,11 +9,11 @@ public class WarmUp {
         ArrayList<Integer> numbers = new ArrayList<>();
         numbers.add(20);
         numbers.add(30);
-        numbers.add(1, 40);
+        numbers.add(1, 40); // 40  30'un yerine gececek. index number 1 olacak. 30 ise index number 2 olacak
 
         System.out.println( numbers );
 
-        numbers.set(numbers.size()-1, 0 );
+        numbers.set(numbers.size()-1, 0 ); // size: total number of elements
 
         System.out.println(numbers);
 
@@ -30,7 +30,7 @@ public class WarmUp {
         System.out.println(numbers);
 
         for(int i =0; i <= numbers.size()-1; i++){
-            int each = numbers.get(i);  // unboxing
+            int each = numbers.get(i);  // unboxing cunku Integer wrapper class===> primitive
             if(each%2 != 0){
                 numbers.set(i, each*2);
             }

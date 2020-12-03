@@ -2,8 +2,12 @@ package Day31_MethodOverLoading;
 
 public class _MethodOverloading_Nedir {
 
-// Method Overloading =====> multiple methods sharing the same name if parameter name is different
+//
+//
+// Method Overloading =====> multiple methods "SHARING THE SAME  METHOD NAME" But parameter MUST be DIFFRENT
 
-      //  PARAMETERS MUST BE DIFFRENT
+      //  PARAMETERS MUST BE DIFFERENT
+
+      //  ADVANTAGE ====> Easy to remember, easy to read ,  reusable, flexible
 
 }

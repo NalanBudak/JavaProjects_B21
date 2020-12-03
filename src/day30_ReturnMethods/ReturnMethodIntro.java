@@ -23,14 +23,14 @@ public class ReturnMethodIntro {
 
                // void method
 
-    public static void addition(int n1, int n2){  //
+    public static void addition(int n1, int n2){  // we never use "void method"  outside the method
         int n3 =n1+n2;
         System.out.println(n3);
     }
 
               // return method
 
-    public static int addition2(int n1, int n2){
+    public static int addition2(int n1, int n2){  //
         int n3 = n1+n2;
         return n3;
     }

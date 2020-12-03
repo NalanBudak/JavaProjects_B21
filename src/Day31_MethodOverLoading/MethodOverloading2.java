@@ -15,6 +15,8 @@ public class MethodOverloading2 {
         System.out.println( sum(10.5, 20.5, 30.5));
         System.out.println( sum(10.5, 20.5, 30.5, 40.5) );
 
+
+
         String str = "Cybertek School";
         String s1 = str.substring(0, str.indexOf(" ") );   // Cybertek
         String s2 = str.substring( 0 );  // Cybertek School
@@ -26,6 +28,7 @@ public class MethodOverloading2 {
 
     }
 
+    //  Overloading method name ayni olabilir ama parameter  MUST be different.
 
     public static int sum(int a, int b){
         return a+b;

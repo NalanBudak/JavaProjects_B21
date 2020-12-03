@@ -3,7 +3,8 @@ import java.util.Arrays;
 
 public class MethodOverloadingIntro {
 
-  /*     Method Overloading: multiple methods sharing the same name
+  /*
+     Method Overloading: multiple methods sharing the same name
           Parameters MUST BE DIFFERENT     */
 
 
@@ -26,9 +27,7 @@ public class MethodOverloadingIntro {
 
     }
 
-    public static void method(){
-        System.out.println("A");
-    }
+    public static void method(){  System.out.println("A"); }   // Overloading  in kurali===>asagidaki methodlarin hepsinin parameter leri farkli olmak zorunda.
 
     public static void method(int a){
         System.out.println("B");

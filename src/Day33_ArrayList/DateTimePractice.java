@@ -8,6 +8,7 @@ import java.util.Arrays;
 public class DateTimePractice {
 
     public static void main(String[] args) {
+
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("E, hh:mm a, MMMM/dd/yyyy");
 
         LocalDateTime d1 = LocalDateTime.of(2020, 11, 24, 13, 0);

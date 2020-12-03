@@ -21,6 +21,7 @@ public class TimeFormat {
         am/pm: a
      */
     public static void main(String[] args) {
+
         DateTimeFormatter df = DateTimeFormatter.ofPattern("MMMM/dd/yyyy, EEEE");
 
         LocalDate today = LocalDate.now();  //2020-11-23

@@ -10,7 +10,7 @@ public class ReturnMethods3 {
         int max =   max(array);  //9
         int max2 =  max2(array);
 
-        System.out.println("max = " + max);
+        System.out.println("max = " + max);  //9
         System.out.println("max2 = " + max2);
 
         int min = min(array);
