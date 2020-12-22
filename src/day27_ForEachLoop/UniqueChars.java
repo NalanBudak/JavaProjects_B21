@@ -8,13 +8,13 @@ public class UniqueChars {
 
         String str = "aabbcddeef";
 
-        char[] arr = str.toCharArray(); // [a, a, b, b, c, d, d, e, e, f]
-       // String[] arr = str.split("");
+       char[] arr = str.toCharArray(); // [a, a, b, b, c, d, d, e, e, f]
+    //    String[] arr = str.split("");
 
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));  // toString ===> used for print array
 
 
-        for(int j = 0; j <= arr.length-1; j++) {
+      for(int j = 0; j <= arr.length-1; j++) {
 
             char element = arr[j];
             int frequency = 0;

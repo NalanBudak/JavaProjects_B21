@@ -5,6 +5,7 @@ public class _Methods_Nedir {
     /*
 
         METHOD ===> Function, grouping a series of code fragments.
+
           Advantage ==> Re-Usable and easy to maintain
 
         Main method ====> main method used for able to run code
@@ -29,7 +30,7 @@ public class _Methods_Nedir {
 
 			specifier=====> static, final, abstract, synchronized
 							FOR NOW ONLY USE STATIC
-						static: can be called through the class name
+						static========> can be called through the class name
 
 						ClassName.MethodName
 						Arrays.toString()

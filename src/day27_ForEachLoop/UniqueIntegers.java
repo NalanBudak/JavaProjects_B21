@@ -4,6 +4,7 @@ public class UniqueIntegers {
 
     public static void main(String[] args) {
 
+
         int[] arr ={1,1,2,3,3,4,1};
         //          0 1 2 3 4 5 6
 
@@ -13,7 +14,7 @@ public class UniqueIntegers {
             int frequency = 0; // frequency of element
 
             for(int i = 0; i <= arr.length-1; i++ ){ // i: 0 1 2 3 4 5 6
-                if(arr[i] == element){
+                if(arr[i] == element){  // i represent each element of array
                     frequency++;
                 }
             }  // for finding finding the frequency of one element, by comparing it with each elements of array

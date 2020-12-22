@@ -5,7 +5,7 @@ public class _MultiDimensionalArray_Nedir {
 
  /*=====================================================================================================
 
-            single dimensional array: array that contains data
+            single dimensional array=====>   array that contains data
 
 	    int[] arr1 = { 1, 2, 3 };
 				       0  1  2
@@ -15,7 +15,7 @@ public class _MultiDimensionalArray_Nedir {
 
 =====================================================================================================
 
-               Multi-dimensional array:  array that contains arrays
+               Multi-dimensional array=======>  array that contains arrays
 
          	        	                     0 1 2     0 1 2 3 4
 						int[][]  arr2D = {  {1,2,3} , {4,5,6,7,8}  };

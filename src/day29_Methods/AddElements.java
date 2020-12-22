@@ -5,11 +5,12 @@ import java.util.Arrays;
 public class AddElements {
 
     public static void main(String[] args) {
+
         int[] arr ={10, 20, 30, 40};
 
-        addElements(arr, 50);
+        addElements(arr, 50);// yukaridaki array e 50 ekleyecek
 
-        int[] arr2 = {1,2,3,4,5,6};
+        int[] arr2 = {1,2,3,4,5,6}; // buraya 10 ekleyecek
         addElements(arr2, 10);
 
     }
@@ -17,6 +18,7 @@ public class AddElements {
 
                                     // {1,2,3},   4
     public static void addElements(int[] arr,   int num){
+
         int[] result = new int[arr.length+1];
 
         for(int i = 0; i <= arr.length-1; i++){

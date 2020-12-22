@@ -12,7 +12,7 @@ public class ArraysDescending {
         Arrays.sort(arr);  // finish sorting in ascending order
 
         System.out.println( Arrays.toString(arr) ); // [0, 1, 2, 5, 6, 7]
-                                                    //  0  1  2  3  4  5
+                                                    //  0  1  2  3  4  5  index numbers
 
         int[] descending = new int[arr.length]; // [7, 6, 5, 2, 1, 0]
 
@@ -24,7 +24,7 @@ public class ArraysDescending {
                          j        i
               descending[0] = arr[5] =7;
               descending[1] = arr[4] =6;
-              descending[2] = arr[3] =5;
+              descending[2] = arr[3]    converts the array to String=5;
               descending[3] = arr[2] =2;
              descending[4] = arr[1] =1;
              descending[5] =  arr[0] = 0;
@@ -32,7 +32,7 @@ public class ArraysDescending {
 
         }
 
-        System.out.println(  Arrays.toString(descending)  );
+        System.out.println(  Arrays.toString(descending) ) ;
 
 
 

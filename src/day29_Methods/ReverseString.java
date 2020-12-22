@@ -11,17 +11,17 @@ public class ReverseString {
         String[] names = {"Sayyohat", "Livio", "Marwan", "Inna", "Halim", "Afrooz", "Maryam"};
 
         for( String each : names)
-                reverse(each);
+                reverse(each);  // reverse methodu kullanarak for each loop reverse yapabiliriz
 
     }
 
 
     //"Cybertek" ==> ketrebyC
-    public static void reverse(String word){
+    public static void reverse(String word){  //parameter string olmak zorunda
         String result = "";
 
-        for(int i = word.length()-1; i>= 0; i--){
-            result += word.charAt(i);
+        for(int i = word.length()-1; i>= 0; i--){ // reverse yapacagiz
+            result += word.charAt(i);  //
         }
 
         System.out.println(result);

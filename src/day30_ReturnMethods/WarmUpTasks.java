@@ -12,6 +12,7 @@ public class WarmUpTasks {
         positiveNegativeZero(-10);
 
         System.out.println("===================================");
+
         int[] numbers = {1, 2, 3, 4, -5, -6, -7, -8, 10, 11, 0};
 
         for (int i = 0; i <= numbers.length - 1; i++) {
@@ -45,7 +46,7 @@ public class WarmUpTasks {
     }
 
     //task1:
-    public static void positiveNegativeZero(int number) {
+    public static void positiveNegativeZero(int number) {   // return type ====> void method , we can not  use outside method
         String result = (number > 0) ? "Positive" : (number < 0) ? "Negative" : "Zero";
         System.out.println(number + " is " + result);
     }

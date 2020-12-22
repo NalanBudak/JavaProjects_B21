@@ -3,9 +3,10 @@ package day30_ReturnMethods;
 public class ReturnMethods2 {
 
     public static void main(String[] args) {
+
         String names = "racecar";
 
-      //  String reversedName = reverseStr1(names);
+      //  String reversedName = reverseStr1(names);  // we can not assign the variable because reversedName1 's  return type void
 
         String reversedName = reverseStr2(names);
 

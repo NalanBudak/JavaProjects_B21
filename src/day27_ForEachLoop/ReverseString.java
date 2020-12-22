@@ -8,8 +8,8 @@ public class ReverseString {
 
         String[] names = {"Delaram", "Aysel", "Snoop", "Ayse", "Erjon"}; // names represent array , eachname represent elements
 
-        for ( String eachName: names ) { //  each name represent ====>"Delaram", "Aysel", "Snoop", "Ayse", "Erjon"
-                                                                  //   0123456    01234
+               for ( String eachName: names ) { //  eachName represent ====>"Delaram", "Aysel", "Snoop", "Ayse", "Erjon"
+                                                                         //   0123456    01234
 
             String reversedName = "";
 

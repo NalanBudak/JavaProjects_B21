@@ -18,6 +18,8 @@ public class VoidMethodPractice {
         arrayMaxNum(a2);
         arrayMinNum(a2);
 
+        System.out.println("================================================");
+
         int[] a3 = {1,1,2,3,3,4,5,5,5,5,6,6,6,7};
         arrayUniqueElements(a3);
 
@@ -27,8 +29,7 @@ public class VoidMethodPractice {
 
     }
 
-
-    public static void arrayMaxNum(int[] arr) {
+    public static void arrayMaxNum(int[] arr) { // void does not return value
         /*
         Arrays.sort(arr);
         System.out.println("Maximum number: "+arr[arr.length-1]);

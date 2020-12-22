@@ -6,9 +6,9 @@ public class MethodsWithParameter {
 
         int age = 35;
 
-        eligibleToBuyAlcohol( age );
+        eligibleToBuyAlcohol( age );    // asagidaki method tan cagiriyoruz.
 
-        eligibleToBuyAlcohol(30);
+        eligibleToBuyAlcohol(30); // asagidaki method tan cagiriyoruz.
 
         calculateAge(2018, 2015);
         calculateAge(1965, 2020);
@@ -17,7 +17,7 @@ public class MethodsWithParameter {
 
     }
 
-    public static void eligibleToBuyAlcohol(int age){
+    public static void eligibleToBuyAlcohol(int age){ // we need condition.that is why created if condition
 
         if(age >= 21){
             System.out.println("Eligible to buy alcohol");

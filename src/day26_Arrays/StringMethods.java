@@ -17,16 +17,19 @@ public class StringMethods {
         // anagram task:
 
         String s1 = "acb";  // a, c, b
-        String s2 = "def"; // b, a, c
+      //String s2=  "bac"; //  b, a, c    eger karakterler ayni ise s1 ve s2 daki gibi buna anagram denir
+        String s2 = "edf"; //
 
-        char[] ch1 =  s1.toCharArray(); //[a, c, b]
-        char[] ch2 = s2.toCharArray(); //[b, a, c]
+        char[] ch1 =  s1.toCharArray(); //[a, c, b]  // stringden array e cevirmek icin toCharArray kullaniyoruz.
+        char[] ch2 = s2.toCharArray(); //[e d,f]
 
-        Arrays.sort(ch1);
+        Arrays.sort(ch1);  // siralama yapar
         Arrays.sort(ch2);
 
         System.out.println(  Arrays.toString(ch1) );
         System.out.println( Arrays.toString(ch2) );
+
+        System.out.println("=====================================");
 
         boolean isAnagram = Arrays.equals(ch1, ch2);
 

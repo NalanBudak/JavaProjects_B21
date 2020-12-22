@@ -2,18 +2,17 @@ package day29_Methods;
 
 public class MethodsWithoutParameters2 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { //
+
 
         printOddNumbers1To100();
 
         printEvenNumber1to100();
-
-
     }
 
     public static void printOddNumbers1To100(){
 
-        for(int i=1; i <= 100; i++){
+        for(int i=1; i <= 100; i++){// 1'den 100 e kadar yazdirmk icin for loop kullaniyoruz.. odd number tek sayi olan numaralar
             if(i%2 != 0) {
                 System.out.print(i + " ");
             }
@@ -21,7 +20,6 @@ public class MethodsWithoutParameters2 {
         System.out.println();
 
     }
-
     public static void printEvenNumber1to100(){
 
         for(int i=1; i <= 100; i++){
@@ -31,11 +29,7 @@ public class MethodsWithoutParameters2 {
         }
         System.out.println();
     }
-
-
-
 }
-
 /*
 void method without parameter
 void method with parameter

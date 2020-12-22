@@ -9,8 +9,8 @@ public class Practice {
             System.out.println("Hello");  // step1: print hello 5 times  (for loop)
 
         }
-
         System.out.println("Muhtar");       //step2: print your name
+        System.out.println("===================================================");
 
         for (int i = 1; i < 6; i++){
 
@@ -25,13 +25,9 @@ public class Practice {
             System.out.println("Hello"); // step5: print hello 5 times (for loop)
 
         }
-
-
-
     }
 
 }
-
 /*
 	    step1: print hello 5 times  (for loop)
 		step2: print your name

@@ -4,7 +4,8 @@ public class FrequencyOfWord {
 
     public static void main(String[] args) {
 
-        String sentence = "I love Java, java is a cool programming language and java is more useful than javascript, python python";
+
+        String sentence = "I love Java,   java is a cool programming language and java is more useful than javascript, python python";
 
         String[] arr = sentence.split(" ");
 

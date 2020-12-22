@@ -47,29 +47,31 @@ Arrays Utility:
 			import java.util.Arrays;
 
 
-*******    Arrays.toString( array ): converts the array to String
+  Arrays.toString( array )====>    converts the array to String
 									MUST use in order to print the entire array
 
-******* 	Arrays.sort(array): sorts the array in ascending order
+  Arrays.sort(array)==========> sorts the array in ascending order
 
 					int[] arr = {9,4,2,1, 10, 11, 0};
 
 							  {0, 1, 2, 4, 9, 10, 11}
 
+ascending =====> from smallest to largest
+descending=====> from largest to smallest
 
-******* 	equals(arr1, arr2): returns boolean
+	equals(arr1, arr2)=======> returns boolean
 
 ==========================================================
 
 String methods:
 
-	toCharArray(): returns char array from string
+	toCharArray()=======> returns char array from string
 			str = "abcd";
 
 			str.toCharArray() ==> {'a', 'b', 'c', 'd'}
 ==========================================================
 
-	split(strValue): returns String array, splits the string by given value
+	split(strValue)=======> returns String array, splits the string by given value
 
 		str = "Today is great day";
 		str.split(" "); ==> {"Today", "is", "great", "day" }
