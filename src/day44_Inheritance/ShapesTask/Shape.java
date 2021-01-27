@@ -1,11 +1,10 @@
 package day44_Inheritance.ShapesTask;
 
-
 public class Shape {
     public String name;
     public final static boolean isShape, hasArea, hasPerimeter; // constant
 
-    public void setInfo(String name){
+    public Shape(String name){
         this.name=name;
     }
 
@@ -19,18 +18,20 @@ public class Shape {
         return 0;
     }
 
+
     public double calcPerimeter(){
         return 0;
     }
 
-    @Override
+
     public String toString() {
         return "Shape{" +
                 "name= '" + name + '\'' +
-                "Area= '" + calcArea() + '\'' +
-                "Perimeter= '" + calcPerimeter() + '\'' +
+                ", Area= '" + calcArea() + '\'' +
+                ", Perimeter= '" + calcPerimeter() + '\'' +
                 '}';
     }
+
 
 
 }
@@ -41,5 +42,3 @@ public class Shape {
 						methods: setInfo, calcArea(), calcPerimeter()
 								 toString(): returns the name, area and perimeter that are returned by calcArea(), calcPerimeter()
  */
-
-

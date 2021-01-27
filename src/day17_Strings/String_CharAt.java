@@ -19,5 +19,9 @@ public class String_CharAt {
 
         //  System.out.println(str.charAt(100)); This is out of bounds
 
+
+
+        //charAt(): Accept an index number and
+        //          return back the character at that specific position
     }
 }
