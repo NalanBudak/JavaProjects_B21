@@ -4,6 +4,6 @@ public class PolymorphismIntro {
 
     public static void main(String[] args) {
 
-// deneme 1
+// deneme 1//
     }
 }
